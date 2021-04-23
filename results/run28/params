@@ -1,0 +1,5 @@
+const size_t total_size = 1<<21;
+const size_t window_size = total_size/4;
+const size_t base_addr_inc = window_size;
+const size_t probe_inc = window_size/100;
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+awk 'NR==1, NR == 1000' cleaned_results.txt > cr_1.txt
+awk 'NR==1001, NR == 2000' cleaned_results.txt > cr_2.txt
+awk 'NR==2001, NR == 3000' cleaned_results.txt > cr_3.txt
+awk 'NR==3001, NR == 4000' cleaned_results.txt > cr_4.txt
